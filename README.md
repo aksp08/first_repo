@@ -32,6 +32,7 @@ Date functions (DAYNAME)
 Data filtering (WHERE)
 Analytical problem solving with SQL
 
+
 **Approach**
 
 The analysis was conducted using a structured analytical approach:
@@ -43,6 +44,7 @@ The first step involved studying the schema and identifying relationships betwee
 2. Translating Business Questions into SQL
 
 Each business requirement from the management team was translated into a structured SQL query. The queries were categorized into two groups:
+
 
 **A-Marketing Analysis**
 
@@ -56,11 +58,13 @@ d. Discovering popular hashtags
 
 e. Analyzing user registration trends
 
+
 **B-Investor Metrics**
 
 a. Measuring overall user engagement
 
 b. Detecting suspicious activity such as potential bot accounts
+
 
 3. Query Development
 
@@ -71,6 +75,7 @@ SQL queries were written using joins, aggregations, and subqueries to extract in
 Query outputs were exported and interpreted to derive meaningful insights that could inform business decisions.
 
 This approach ensured that the analysis moved beyond simply writing SQL queries and focused on extracting actionable business insights.
+
 
 **Key Insights**
 
@@ -86,25 +91,29 @@ User registrations peaked on Thursday and Sunday, each with 16 registrations.
 
 13 users liked all 257 photos, indicating extremely high engagement or possible automated activity.
 
+
 **Output**
 
-a. Through SQL analysis, the project successfully:
 
-b. Identified loyal early adopters of the platform
+ Through SQL analysis, the project successfully:
 
-c. Quantified inactive users and engagement levels
+a. Identified loyal early adopters of the platform
 
-d. Determined high-performing content through like analysis
+b. Quantified inactive users and engagement levels
 
-e. Identified trending hashtags for marketing opportunities
+c. Determined high-performing content through like analysis
 
-f. Discovered optimal days for marketing campaign launches
+d. Identified trending hashtags for marketing opportunities
 
-g. Detected potential bot accounts interacting with all platform content
+e. Discovered optimal days for marketing campaign launches
+
+f. Detected potential bot accounts interacting with all platform content
 
 The results demonstrate how structured SQL queries can transform relational data into actionable insights.
 
+
 **Business Recommendations**
+
 
 Based on the findings:
 
